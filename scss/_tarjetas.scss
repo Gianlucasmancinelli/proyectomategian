@@ -1,8 +1,9 @@
 .tarjetas{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+  
  
 }
 
@@ -13,7 +14,8 @@
     width: 350px;
     border: 2px solid black;
     border-radius: 10px;
-    display: flex;    
+    display: flex;  
+    align-items: center;  
     flex-direction: column;
     justify-content: space-around;
 
