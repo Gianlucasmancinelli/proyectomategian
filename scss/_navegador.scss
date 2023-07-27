@@ -1,0 +1,15 @@
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.767) !important;
+}
+    .navbar-brand,.navbar-toggler,.navbar-collapse{
+    margin: 10px;
+    font-size: $font-title 28px;
+    justify-content: end;
+    cursor: pointer;
+    font-size: 24px;
+}
+    .navegador img{
+    height: 80px;
+    justify-content: start;
+}   

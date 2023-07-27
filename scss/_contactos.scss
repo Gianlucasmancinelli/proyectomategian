@@ -1,0 +1,21 @@
+  .contactos{
+  margin: 5px;
+  padding: 5px; 
+  
+  h3{
+      @media(min-width:576px){
+      font-size: 28px;
+      text-align: center; 
+    }
+  }
+
+  p{
+      @media(min-width:576px){
+      font-size: 28px;
+      text-align: center; 
+    }
+      
+  }
+    
+
+}
