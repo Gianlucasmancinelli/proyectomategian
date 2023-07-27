@@ -7,6 +7,7 @@
     justify-items: center;
     background-color: $bg-color;
     color: white;
+    
 
 img {
     width: 200px;
@@ -20,6 +21,8 @@ img {
             justify-content: center;
             gap: 20px;
             padding: 10px;
+            text-align: center;
+            
         .piepagina .contactos p{
             display: flex;
             flex-direction: column;
@@ -40,10 +43,22 @@ img {
 
     }
 
-    .redes i{
+    .redes {
+
+        :nth-child(1) {
             font-size: 52px;
             margin: 10px;
+            color: #25D366;
+        }
 
+        :nth-child(2) {
+            font-size: 52px;
+            margin: 10px;
+            color: #3b5998;
+        }
+           
+         
+      
   
 
         @media(max-width:992px){
@@ -51,11 +66,6 @@ img {
 
         }    
         
-    }
-        @each $clave , $valor in $redes{
-            .#{clave}{
-            color:$valor;
-        }
     }
 
 }
@@ -82,4 +92,13 @@ img {
     justify-content: center;
     align-items: center;
     gap: 15px;
+}
+
+@media(max-width:917px){
+    .piepagina {
+        display: flex;
+        flex-direction: column;
+        
+       
+    }
 }
