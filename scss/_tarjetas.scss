@@ -1,59 +1,79 @@
-
-
-.tarjetas{
+.tarjetas {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 50px;
     margin: 30px 0;
- 
+
 }
 
-.tarjeta{
+.tarjeta {
     font-family: Arial, Helvetica, sans-serif;
     width: 350px;
+    height: 550px;
     border: 2px solid black;
     border-radius: 10px;
-    display: flex;  
-    align-items: center;  
+    display: flex;
+    align-items: center;
     flex-direction: column;
     justify-content: space-around;
     gap: 15px;
 
-    h2{
+    h2 {
         margin: 15px;
         padding: 15px;
         font-size: 28px;
         color: black;
 
     }
-    h3{ font-size: 20px;
+
+    h3 {
+        font-size: 20px;
         font-weight: bold;
         color: rgb(0, 0, 0);
         margin: 5px;
         text-align: center;
 
     }
-    p{  display: flex;
+
+    p {
+        display: flex;
         flex-direction: column;
-        color:rgb(0, 0, 0);
-        padding: 5px; 
+        color: rgb(0, 0, 0);
+        padding: 5px;
         font-size: 20px;
-        margin: 5px;  
+        margin: 5px;
         text-align: center;
     }
-     img{
-        height: 300px;
-        
+
+    img {
+        height: 250px;
         border-radius: 10px;
         @include img(100%)
-        
     }
-    button{
-        @extend %button;
-        width: 150px;
-    }
-    
-}   
 
+    .precio-boton {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%
+    }
+
+    .precio {
+
+        font-weight: bold;
+        color: #000;
+        font-size: 25px;
+
+    }
+}
+
+button {
+    @extend %button;
+    width: 150px;
+
+
+
+
+}

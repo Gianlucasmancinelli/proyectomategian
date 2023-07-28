@@ -1,5 +1,4 @@
-
-.nosotros  {
+.nosotros {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,40 +7,41 @@
     gap: 50px;
 
     p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    font-size: 20px;
-    letter-spacing: 1px;   
-    
-    }
-    
-    h1{
         font-family: Arial, Helvetica, sans-serif;
-     
+        font-size: 24px;
+        font-weight: bold;
+        font-size: 20px;
+        letter-spacing: 1px;
+
+    }
+
+    h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+
     }
 }
 
 
 
-    .video{
-    
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin: 30px 0;
-        flex-wrap: wrap;
-   
-        iframe {
-            height: 400px;
-            width: 700px;
-        }
+.video {
 
-        @media(max-width:768px) {
-           iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 0;
+    flex-wrap: wrap;
+
+    iframe {
+        height: 400px;
+        width: 700px;
+    }
+
+    @media(max-width:768px) {
+        iframe {
             width: 100%;
-           }
         }
+    }
 }
-    
