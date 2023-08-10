@@ -95,8 +95,8 @@ button {
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: space-around;
-  gap: 15px;
+  justify-content: space-between;
+  gap: 10px;
 }
 .tarjeta h2 {
   margin: 15px;
@@ -121,13 +121,13 @@ button {
   text-align: center;
 }
 .tarjeta img {
-  height: 250px;
+  max-height: 250px;
   border-radius: 10px;
   width: 100%;
 }
 .tarjeta .precio-boton {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   width: 100%;
 }
@@ -141,14 +141,11 @@ button {
   width: 150px;
 }
 
-.contactos {
-  margin: 5px;
-  padding: 5px;
-}
 .contactos h2 {
   font-weight: bold;
   font-size: 40px;
-  gap: 10px;
+  padding: 10px;
+  margin: 10px;
 }
 @media (min-width: 576px) {
   .contactos h3 {
@@ -310,6 +307,19 @@ button {
   width: 70%;
   height: 200px;
   border-radius: 10px;
+}
+.piepagina .redes i {
+  font-size: 40px;
+}
+.piepagina .redes :nth-child(1) {
+  font-size: 52px;
+  margin: 10px;
+  color: #25D366;
+}
+.piepagina .redes :nth-child(2) {
+  font-size: 52px;
+  margin: 10px;
+  color: #3b5998;
 }
 @media (max-width: 992px) {
   .piepagina .redes {

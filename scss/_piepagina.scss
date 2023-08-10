@@ -46,8 +46,21 @@
     }
 
     .redes {
+        i{
+            font-size: 40px;
+        }
+        :nth-child(1) {
+            font-size: 52px;
+            margin: 10px;
+            color: #25D366;
+        }
 
-
+        :nth-child(2) {
+            font-size: 52px;
+            margin: 10px;
+            color: #3b5998;
+        }
+    
         @media(max-width:992px) {
             grid-column: auto;
 
