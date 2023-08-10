@@ -19,7 +19,6 @@ button {
   color: #fff;
   font-weight: bold;
   font-size: 34px;
-  margin: 0 30px;
 }
 
 .navbar-brand, .navbar-toggler, .navbar-collapse {
@@ -168,7 +167,6 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 .formulario {
