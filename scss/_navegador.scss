@@ -1,25 +1,33 @@
-
-.navbar{
+.navbar {
     background-color: rgba(0, 0, 0, 0.767) !important;
+
+    a {
+        text-decoration: none;
+    }
 
     h1 {
         color: #fff;
         font-weight: bold;
         font-size: 34px;
-       
+
+
     }
 }
-    .navbar-brand,.navbar-toggler,.navbar-collapse{
+
+.navbar-brand,
+.navbar-toggler,
+.navbar-collapse {
     margin: 10px;
     font-size: $font-title 28px;
     justify-content: end;
     cursor: pointer;
     font-size: 24px;
 }
-    .navegador img{
-        width: 80px;
-        border-radius: 50%;
-}   
+
+.navegador img {
+    width: 80px;
+    border-radius: 50%;
+}
 
 .navbar-nav {
     gap: 30px;
