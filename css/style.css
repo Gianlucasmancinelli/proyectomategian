@@ -148,7 +148,7 @@ button {
 .contactos h2 {
   font-weight: bold;
   font-size: 40px;
-  margin-top: 5px;
+  gap: 10px;
 }
 @media (min-width: 576px) {
   .contactos h3 {
@@ -310,16 +310,6 @@ button {
   width: 70%;
   height: 200px;
   border-radius: 10px;
-}
-.piepagina .redes :nth-child(1) {
-  font-size: 52px;
-  margin: 10px;
-  color: #25D366;
-}
-.piepagina .redes :nth-child(2) {
-  font-size: 52px;
-  margin: 10px;
-  color: #3b5998;
 }
 @media (max-width: 992px) {
   .piepagina .redes {
