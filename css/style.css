@@ -148,6 +148,7 @@ button {
 .contactos h2 {
   font-weight: bold;
   font-size: 40px;
+  margin-top: 5px;
 }
 @media (min-width: 576px) {
   .contactos h3 {

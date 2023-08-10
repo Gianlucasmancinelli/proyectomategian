@@ -58,11 +58,7 @@
             margin: 10px;
             color: #3b5998;
         }
-
-
-
-
-
+    
         @media(max-width:992px) {
             grid-column: auto;
 
@@ -100,6 +96,7 @@
     .piepagina {
         display: flex;
         flex-direction: column;
+
 
 
     }
