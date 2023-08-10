@@ -151,6 +151,7 @@ button {
   .contactos h3 {
     font-size: 28px;
     text-align: center;
+    margin-top: 15px;
   }
 }
 @media (min-width: 576px) {
